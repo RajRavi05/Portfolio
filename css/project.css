@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&family=Sansita+Swashed:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.project-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+.project-header h2 {
+  font-size: 2.5rem;
+  color: red;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+.project-header h2::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 40%;
+  height: 4px;
+  width: 100px;
+  background: red;
+  border-radius: 100px;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+}
+
+.project-cards {
+  display: grid;
+  grid-gap: 2rem;
+}
+.project-card {
+  background: #fff;
+  width: 1000px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.2), 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.project-card-header h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.project-card-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.project-card-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5rem;
+  width: 450px;
+  line-height: 1.5;
+}
+
+.project-card-details p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.project-card-img {
+  padding: 0.5rem;
+  width: 350px;
+  box-shadow: -3px -2px 5px rgba(0, 0, 0, 0.3), 3px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.project-card-img img {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.project-card-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.code {
+  margin-right: 10px;
+}
+.project-card-links i {
+  font-size: 1.5rem;
+  color: blue;
+}
+.tech {
+  color: blue;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  .project-header h2 {
+    font-size: 1.8rem;
+  }
+  .project-card {
+    width: 350px;
+  }
+  .project-card-content {
+    flex-direction: column;
+  }
+  .project-card-details {
+    width: 340px;
+  }
+}

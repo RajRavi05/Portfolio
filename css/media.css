@@ -1,0 +1,107 @@
+@media screen and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: fixed;
+    right: 0px;
+    height: 87vh;
+    top: 10vh;
+    background: #ead6ee;
+    margin-top: -1px;
+    width: 75%;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px 0 0 10px;
+    transform: translateX(105%);
+    transition: all 0.5s ease;
+    padding: 2rem;
+    box-shadow: -3px 2px 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+
+  .showcase {
+    flex-direction: column;
+  }
+  .showcase-img {
+    width: 350px;
+  }
+  .showcase-text {
+    margin-top: 5rem;
+  }
+  .showcase-text h2 {
+    font-size: 2.5rem;
+  }
+  .about-contents {
+    flex-direction: column;
+  }
+  .about-content-img {
+    width: 330px;
+  }
+  .about-content-text {
+    width: 350px;
+  }
+  .about-content-text p {
+    font-size: 1.2rem;
+  }
+
+  .skills-contents {
+    flex-direction: column;
+  }
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .skills-img {
+    width: 330px;
+  }
+  .work-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .work-card {
+    width: 330px;
+  }
+  .btn-3 {
+    padding: 0.5rem 2rem;
+  }
+
+  .social-contents {
+    flex-direction: column;
+  }
+  .social-header h2 {
+    font-size: 2.2rem;
+  }
+  .social-img {
+    width: 330px;
+  }
+  .social-icons {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  .contact-details {
+    flex-direction: column;
+  }
+  .mailID {
+    padding: 1.2rem;
+  }
+  .mailID h3 {
+    font-size: 1.7rem;
+  }
+  .form {
+    padding: 1rem;
+    margin: 10px;
+  }
+  .form-title h3 {
+    font-size: 1.5rem;
+  }
+  .footer {
+    padding: 1rem;
+  }
+  .uparrow i {
+    font-size: 1.5rem;
+  }
+}

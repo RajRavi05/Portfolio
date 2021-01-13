@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bg.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <!-- <link rel="stylesheet" href="./css/svg.css" /> -->
+    <title>Raj Ravi | Front-end Developer</title>
+  </head>
+  <body>
+    <!-- Header part -->
+    <header id="header">
+      <nav id="navbar" class="navbar">
+        <div class="logo">
+          <img src="./img/logo-2.png" alt="logo" />
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <div class="dark-theme">
+            <input type="checkbox" id="check" class="checkbox" />
+            <label for="check" class="label">
+              <i class="fas fa-sun"></i>
+              <i class="fas fa-moon"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+
+      <!-- ************* Show case   ************ -->
+      <section id="showcase" class="showcase">
+        <div class="showcase-text">
+          <h2 class="text1">Hi there!</h2>
+          <h2 class="text2">I'm <span>Raj Ravi</span></h2>
+          <h2 class="text3">Let's talk web dev.</h2>
+        </div>
+        <div class="showcase-img">
+          <img src="./img/coder-back-view.png" alt="showcase" />
+        </div>
+      </section>
+    </header>
+
+    <!-- ************* About   ************ -->
+    <section id="about" class="about">
+      <div class="about-heading">
+        <h2>About me!</h2>
+      </div>
+      <div class="about-contents">
+        <div data-aos="fade-up" class="about-content-img">
+          <img src="./img/web-dev-desk.png" alt="desk" />
+        </div>
+        <div data-aos="fade-down" class="about-content-text">
+          <h2>I'm <span>Raj Ravi</span></h2>
+          <div class="about-content-paragraph">
+            <p>
+              Based in Tamil Nadu, India. Currently I'm pursing my Engineering
+              degree(CS), in ANNA University. I'm passionate about
+              <span>web design and development</span>, I have been experimenting
+              my web development skills and exploring new things everyday!.
+            </p>
+          </div>
+          <a href="./resume/Resume-edit.pdf" class="btn-1">Resume </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************* Skills   ************ -->
+    <section id="skills" class="skills">
+      <div class="skills-header">
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-contents">
+        <div class="skills-details" data-aos="fade-down">
+          <div class="details-header">
+            <h2>Skills I'm good at</h2>
+          </div>
+          <div class="cards">
+            <div class="card" data-aos="fade-up">
+              <div class="svg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="0 0 1052 1052"
+                >
+                  <path fill="#f0db4f" d="M0 0h1052v1052H0z" />
+                  <path
+                    d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z"
+                    fill="#323330"
+                  />
+                </svg>
+              </div>
+              <div class="para">
+                <p>
+                  I'm a javascript enthusiast, currently working on JS projects.
+                  I have done lot of projects in JS. I love being
+                  javascriptual!🧑
+                </p>
+              </div>
+            </div>
+
+            <div class="card" data-aos="fade-down">
+              <div class="svg">
+                <svg
+                  width="80"
+                  height="80"
+                  viewBox="0 0 256 230"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="xMinYMin meet"
+                >
+                  <path
+                    d="M.754 114.75c0 19.215 18.763 37.152 48.343 47.263-5.907 29.737-1.058 53.706 15.136 63.045 16.645 9.6 41.443 2.955 64.98-17.62 22.943 19.744 46.13 27.514 62.31 18.148 16.63-9.627 21.687-35.221 15.617-65.887 30.81-10.186 48.044-25.481 48.044-44.949 0-18.769-18.797-35.006-47.979-45.052 6.535-31.933.998-55.32-15.867-65.045-16.259-9.376-39.716-1.204-62.996 19.056C104.122 2.205 80.897-4.36 64.05 5.392 47.806 14.795 43.171 39.2 49.097 69.487 20.515 79.452.754 96.057.754 114.75z"
+                    fill="#FFF"
+                  />
+                  <path
+                    d="M201.025 79.674a151.364 151.364 0 0 0-7.274-2.292 137.5 137.5 0 0 0 1.124-4.961c5.506-26.728 1.906-48.26-10.388-55.348-11.787-6.798-31.065.29-50.535 17.233a151.136 151.136 0 0 0-5.626 5.163 137.573 137.573 0 0 0-3.744-3.458c-20.405-18.118-40.858-25.752-53.139-18.643-11.776 6.817-15.264 27.06-10.307 52.39a150.91 150.91 0 0 0 1.67 7.484c-2.894.822-5.689 1.698-8.363 2.63-23.922 8.34-39.2 21.412-39.2 34.97 0 14.004 16.4 28.05 41.318 36.566a128.44 128.44 0 0 0 6.11 1.91 147.813 147.813 0 0 0-1.775 8.067c-4.726 24.89-1.035 44.653 10.71 51.428 12.131 6.995 32.491-.195 52.317-17.525 1.567-1.37 3.14-2.823 4.715-4.346a148.34 148.34 0 0 0 6.108 5.573c19.204 16.525 38.17 23.198 49.905 16.405 12.12-7.016 16.058-28.247 10.944-54.078-.39-1.973-.845-3.988-1.355-6.04 1.43-.422 2.833-.858 4.202-1.312 25.904-8.582 42.757-22.457 42.757-36.648 0-13.607-15.77-26.767-40.174-35.168z"
+                    fill="#53C1DE"
+                  />
+                  <path
+                    d="M195.406 142.328c-1.235.409-2.503.804-3.795 1.187-2.86-9.053-6.72-18.68-11.442-28.625 4.507-9.71 8.217-19.213 10.997-28.208 2.311.67 4.555 1.375 6.717 2.12 20.91 7.197 33.664 17.84 33.664 26.04 0 8.735-13.775 20.075-36.14 27.486zm-9.28 18.389c2.261 11.422 2.584 21.749 1.086 29.822-1.346 7.254-4.052 12.09-7.398 14.027-7.121 4.122-22.35-1.236-38.772-15.368-1.883-1.62-3.78-3.35-5.682-5.18 6.367-6.964 12.73-15.06 18.94-24.05 10.924-.969 21.244-2.554 30.603-4.717.46 1.86.87 3.683 1.223 5.466zm-93.85 43.137c-6.957 2.457-12.498 2.527-15.847.596-7.128-4.11-10.09-19.98-6.049-41.265a138.507 138.507 0 0 1 1.65-7.502c9.255 2.047 19.5 3.52 30.45 4.408 6.251 8.797 12.798 16.883 19.396 23.964a118.863 118.863 0 0 1-4.305 3.964c-8.767 7.664-17.552 13.1-25.294 15.835zm-32.593-61.58c-11.018-3.766-20.117-8.66-26.354-14-5.604-4.8-8.434-9.565-8.434-13.432 0-8.227 12.267-18.722 32.726-25.855a139.276 139.276 0 0 1 7.777-2.447c2.828 9.197 6.537 18.813 11.013 28.537-4.534 9.869-8.296 19.638-11.15 28.943a118.908 118.908 0 0 1-5.578-1.746zm10.926-74.37c-4.247-21.703-1.427-38.074 5.67-42.182 7.56-4.376 24.275 1.864 41.893 17.507 1.126 1 2.257 2.047 3.39 3.13-6.564 7.049-13.051 15.074-19.248 23.82-10.627.985-20.8 2.567-30.152 4.686a141.525 141.525 0 0 1-1.553-6.962zm97.467 24.067a306.982 306.982 0 0 0-6.871-11.3c7.21.91 14.117 2.12 20.603 3.601-1.947 6.241-4.374 12.767-7.232 19.457a336.42 336.42 0 0 0-6.5-11.758zm-39.747-38.714c4.452 4.823 8.911 10.209 13.297 16.052a284.245 284.245 0 0 0-26.706-.006c4.39-5.789 8.887-11.167 13.409-16.046zm-40.002 38.78a285.24 285.24 0 0 0-6.378 11.685c-2.811-6.667-5.216-13.222-7.18-19.552 6.447-1.443 13.322-2.622 20.485-3.517a283.79 283.79 0 0 0-6.927 11.384zm7.133 57.683c-7.4-.826-14.379-1.945-20.824-3.348 1.995-6.442 4.453-13.138 7.324-19.948a283.494 283.494 0 0 0 6.406 11.692 285.27 285.27 0 0 0 7.094 11.604zm33.136 27.389c-4.575-4.937-9.138-10.397-13.595-16.27 4.326.17 8.737.256 13.22.256 4.606 0 9.159-.103 13.64-.303-4.4 5.98-8.843 11.448-13.265 16.317zm46.072-51.032c3.02 6.884 5.566 13.544 7.588 19.877-6.552 1.495-13.625 2.699-21.078 3.593a337.537 337.537 0 0 0 6.937-11.498 306.632 306.632 0 0 0 6.553-11.972zm-14.915 7.15a316.478 316.478 0 0 1-10.84 17.49c-6.704.479-13.632.726-20.692.726-7.031 0-13.871-.219-20.458-.646A273.798 273.798 0 0 1 96.72 133.28a271.334 271.334 0 0 1-9.64-18.206 273.864 273.864 0 0 1 9.611-18.216v.002a271.252 271.252 0 0 1 10.956-17.442c6.72-.508 13.61-.774 20.575-.774 6.996 0 13.895.268 20.613.78a290.704 290.704 0 0 1 10.887 17.383 316.418 316.418 0 0 1 9.741 18.13 290.806 290.806 0 0 1-9.709 18.29zm19.913-107.792c7.566 4.364 10.509 21.961 5.755 45.038a127.525 127.525 0 0 1-1.016 4.492c-9.374-2.163-19.554-3.773-30.212-4.773-6.209-8.841-12.642-16.88-19.1-23.838a141.92 141.92 0 0 1 5.196-4.766c16.682-14.518 32.273-20.25 39.377-16.153z"
+                    fill="#FFF"
+                  />
+                  <path
+                    d="M128.221 94.665c11.144 0 20.177 9.034 20.177 20.177 0 11.144-9.033 20.178-20.177 20.178-11.143 0-20.177-9.034-20.177-20.178 0-11.143 9.034-20.177 20.177-20.177"
+                    fill="#53C1DE"
+                  />
+                </svg>
+              </div>
+              <div class="para">
+                <p>
+                  I was impressed by the features offered by React. With no due
+                  I started learning React. Currently I am learning React, it is
+                  my framework of choice💻.
+                </p>
+              </div>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+              <div class="svg">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="80"
+                  height="80"
+                  viewBox="221.807 89.47 440 621.061"
+                  enable-background="new 221.807 89.47 440 621.061"
+                >
+                  <filter id="a" width="150%" height="150%" x="-5%" y="-5%">
+                    <feFlood
+                      flood-color="#000"
+                      result="floodFill"
+                      flood-opacity=".5"
+                    />
+                    <feComposite
+                      in="floodFill"
+                      in2="SourceAlpha"
+                      operator="in"
+                      result="coloredAlpha"
+                    />
+                    <feGaussianBlur
+                      in="coloredAlpha"
+                      result="blur"
+                      stdDeviation="8"
+                    />
+                    <feComposite
+                      in="blur"
+                      in2="SourceGraphic"
+                      operator="out"
+                      result="maskedOffsetBlur"
+                    />
+                    <feMerge>
+                      <feMergeNode in="maskedOffsetBlur" />
+                      <feMergeNode in="SourceGraphic" />
+                    </feMerge>
+                  </filter>
+                  <g filter="url(#a)">
+                    <path
+                      fill="#e44d26"
+                      d="M261.849 660.647l-40.042-449.125h440l-40.086 449.054-180.184 49.954z"
+                    />
+                    <path
+                      fill="#f16529"
+                      d="M441.807 672.348l145.596-40.367 34.258-383.735H441.807z"
+                    />
+                    <path
+                      fill="#ebebeb"
+                      d="M441.807 414.82h-72.888l-5.035-56.406h77.923V303.33H303.683l1.32 14.778 13.538 151.794h123.266zM441.807 557.876l-.242.066-61.346-16.566-3.922-43.93h-55.294l7.718 86.489 112.834 31.323.252-.071z"
+                    />
+                    <path
+                      d="M262.745 89.47h27.992v27.656h25.606V89.47h27.993v83.75h-27.993v-28.044h-25.606v28.044h-27.99l-.002-83.75zM381.149 117.244h-24.642V89.47H433.8v27.774h-24.654v55.976H381.15v-55.976h-.001zM446.065 89.47h29.19l17.955 29.428 17.938-29.428h29.2v83.75h-27.882v-41.512l-19.259 29.778h-.481l-19.272-29.778v41.512h-27.39V89.47zM554.277 89.47h28v56.068h39.368v27.682h-67.368V89.47z"
+                    />
+                    <path
+                      fill="#fff"
+                      d="M441.617 414.82v55.082h67.83l-6.395 71.44-61.435 16.58v57.307l112.924-31.294.826-9.309 12.946-145.014 1.344-14.792h-14.842zM441.617 303.33v55.084H574.67l1.103-12.382 2.51-27.924 1.318-14.778z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="para">
+                <p>
+                  Marking up a content is an art, if you have XD,Figma or any
+                  other design I will design it to a fully responisve website.📰
+                </p>
+              </div>
+            </div>
+
+            <div class="card" data-aos="fade-up">
+              <div class="svg">
+                <svg
+                  width="80"
+                  height="80"
+                  viewBox="0 0 256 361"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="xMidYMid"
+                >
+                  <path
+                    d="M127.844 360.088L23.662 331.166.445 70.766h255.11l-23.241 260.36-104.47 28.962z"
+                    fill="#264DE4"
+                  />
+                  <path
+                    d="M212.417 314.547l19.86-222.49H128V337.95l84.417-23.403z"
+                    fill="#2965F1"
+                  />
+                  <path
+                    d="M53.669 188.636l2.862 31.937H128v-31.937H53.669zM47.917 123.995l2.903 31.937H128v-31.937H47.917zM128 271.58l-.14.037-35.568-9.604-2.274-25.471h-32.06l4.474 50.146 65.421 18.16.147-.04V271.58z"
+                    fill="#EBEBEB"
+                  />
+                  <path
+                    d="M60.484 0h38.68v16.176H76.66v16.176h22.506v16.175H60.484V0zM106.901 0h38.681v14.066h-22.505v2.813h22.505v32.352h-38.68V34.46h22.505v-2.813H106.9V0zM153.319 0H192v14.066h-22.505v2.813H192v32.352h-38.681V34.46h22.505v-2.813H153.32V0z"
+                  />
+                  <path
+                    d="M202.127 188.636l5.765-64.641H127.89v31.937h45.002l-2.906 32.704H127.89v31.937h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576z"
+                    fill="#FFF"
+                  />
+                </svg>
+              </div>
+              <div class="para">
+                <p>
+                  Changing a simple markup into a cool website/webapp in a fully
+                  responisve way is my agenda. I use SASS, also comfortable with
+                  CSS frameworks. 🎨🖌
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-img" data-aos="fade-down">
+          <img src="./img/javascript.png" alt="javascript" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ************* Work   ************ -->
+    <section id="work" class="work">
+      <div class="work-header">
+        <h2>My Works!</h2>
+      </div>
+      <div class="work-details">
+        <div class="work-cards">
+          <div class="work-card" data-aos="fade-up">
+            <div class="work-card-img">
+              <img src="./img/work-icons/logo.png" alt="forkify" />
+            </div>
+            <div class="work-card-text">
+              <h2>Forkify Recipe Finder</h2>
+              <p>
+                This web app is developed with forkify API. It fetches more than
+                100k recipes with their ingredients and how to cook. You can
+                also mark it as favourites, it persist the data in the browser.
+                🍽🍕
+              </p>
+            </div>
+            <a
+              href="https://forkifyy-recipes.netlify.app/"
+              class="btn-2"
+              target="_blank"
+              >Live demo</a
+            >
+          </div>
+
+          <div class="work-card" data-aos="fade-down">
+            <div class="work-card-img">
+              <img src="./img/work-icons/logo-2.png" alt="Tracalorie" />
+            </div>
+            <div class="work-card-text">
+              <h2>Track your calorie</h2>
+              <p>
+                This web app is developed only with JS no frameworks used
+                (Materialize CSS is used for styling). In this app you can add
+                your calories, it is a complete CRUD application. It persist the
+                data in the browser. 🍱
+              </p>
+            </div>
+            <a
+              href="https://tracaloriee.netlify.app/"
+              target="_blank"
+              class="btn-2"
+              >Live demo</a
+            >
+          </div>
+
+          <div class="work-card" data-aos="fade-up">
+            <div class="work-card-img">
+              <img src="./img/work-icons/logo-3.png" alt="PostBook" />
+            </div>
+            <div class="work-card-text">
+              <h2>Share your posts</h2>
+              <p>
+                This web app is developed with json server for db. It is a
+                complete CRUD application. This is developed to share thoughts
+                among people, do "npm run json:server" to run the json server.
+                📃
+              </p>
+            </div>
+            <a
+              href="https://post-book.netlify.app/"
+              target="_blank"
+              class="btn-2"
+              >Live demo</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <a href="projects.html" class="btn-3" target="_blank"
+          >View All projects</a
+        >
+      </div>
+    </section>
+
+    <!-- ************* Social connections   ************ -->
+    <section id="social-connections" class="social-connections">
+      <div class="social-header">
+        <h2>Social Connections!</h2>
+      </div>
+      <div class="social-contents">
+        <div class="social-img" data-aos="fade-up">
+          <img src="./img/social-frame.png" alt="social frames" />
+        </div>
+        <div class="social-details" data-aos="fade-down">
+          <div class="social-details-header">
+            <h2>Stalk me here!</h2>
+          </div>
+          <div class="social-icons">
+            <div class="twitter">
+              <a
+                href="https://twitter.com/rajrv55"
+                target="_black"
+                data-aos="fade-up"
+              >
+                <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+                <svg
+                  enable-background="new 0 0 32 32"
+                  height="80px"
+                  id="Layer_1"
+                  version="1.0"
+                  viewBox="0 0 32 32"
+                  width="80px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <path
+                    d="M31.993,6.077C30.816,6.6,29.552,6.953,28.223,7.11c1.355-0.812,2.396-2.098,2.887-3.63  c-1.269,0.751-2.673,1.299-4.168,1.592C25.744,3.797,24.038,3,22.149,3c-3.625,0-6.562,2.938-6.562,6.563  c0,0.514,0.057,1.016,0.169,1.496C10.301,10.785,5.465,8.172,2.227,4.201c-0.564,0.97-0.888,2.097-0.888,3.3  c0,2.278,1.159,4.286,2.919,5.464c-1.075-0.035-2.087-0.329-2.972-0.821c-0.001,0.027-0.001,0.056-0.001,0.082  c0,3.181,2.262,5.834,5.265,6.437c-0.55,0.149-1.13,0.23-1.729,0.23c-0.424,0-0.834-0.041-1.234-0.117  c0.834,2.606,3.259,4.504,6.13,4.558c-2.245,1.76-5.075,2.811-8.15,2.811c-0.53,0-1.053-0.031-1.566-0.092  C2.905,27.913,6.355,29,10.062,29c12.072,0,18.675-10.001,18.675-18.675c0-0.284-0.008-0.568-0.02-0.85  C30,8.55,31.112,7.395,31.993,6.077z"
+                    fill="#55ACEE"
+                  />
+                  <g />
+                  <g />
+                  <g />
+                  <g />
+                  <g />
+                  <g />
+                </svg>
+              </a>
+            </div>
+            <div class="facebook">
+              <a
+                href="https://www.facebook.com/rajravi.rajravi.39"
+                target="_blank"
+                data-aos="fade-up"
+              >
+                <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                <svg
+                  height="60px"
+                  style="
+                    fill-rule: evenodd;
+                    clip-rule: evenodd;
+                    stroke-linejoin: round;
+                    stroke-miterlimit: 2;
+                  "
+                  version="1.1"
+                  viewBox="0 0 512 512"
+                  width="60px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:serif="http://www.serif.com/"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z"
+                    style="fill: #1777f2"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="linkedIn">
+              <a
+                href="https://www.linkedin.com/in/raj-r-72b593132/"
+                target="_blank"
+                data-aos="fade-down"
+              >
+                <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+                <svg
+                  enable-background="new 0 0 32 32"
+                  height="60px"
+                  id="Layer_1"
+                  version="1.0"
+                  viewBox="0 0 32 32"
+                  width="60px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <path
+                      d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z"
+                      fill="#007BB5"
+                    />
+                    <g>
+                      <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
+                      <path
+                        d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z"
+                        fill="#FFFFFF"
+                      />
+                      <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
+                    </g>
+                  </g>
+                  <g />
+                  <g />
+                  <g />
+                  <g />
+                  <g />
+                  <g />
+                </svg>
+              </a>
+            </div>
+            <div class="instagram">
+              <a
+                href="https://www.instagram.com/rajravi05/"
+                target="_blank"
+                data-aos="fade-down"
+              >
+                <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                <svg
+                  height="60px"
+                  style="
+                    fill-rule: evenodd;
+                    clip-rule: evenodd;
+                    stroke-linejoin: round;
+                    stroke-miterlimit: 2;
+                  "
+                  version="1.1"
+                  viewBox="0 0 512 512"
+                  width="60px"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:serif="http://www.serif.com/"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g>
+                    <path
+                      d="M256,0c-69.526,0 -78.244,0.295 -105.549,1.541c-27.248,1.243 -45.858,5.57 -62.142,11.899c-16.834,6.542 -31.111,15.296 -45.342,29.528c-14.232,14.231 -22.986,28.508 -29.528,45.342c-6.329,16.283 -10.656,34.893 -11.899,62.141c-1.246,27.305 -1.54,36.023 -1.54,105.549c0,69.524 0.294,78.242 1.54,105.547c1.243,27.248 5.57,45.858 11.899,62.141c6.542,16.834 15.296,31.111 29.528,45.344c14.231,14.231 28.508,22.985 45.342,29.527c16.284,6.328 34.894,10.656 62.142,11.899c27.305,1.245 36.023,1.54 105.549,1.54c69.524,0 78.242,-0.295 105.547,-1.54c27.248,-1.243 45.858,-5.571 62.141,-11.899c16.834,-6.542 31.111,-15.296 45.344,-29.527c14.231,-14.233 22.985,-28.51 29.527,-45.344c6.328,-16.283 10.656,-34.893 11.899,-62.141c1.245,-27.305 1.54,-36.023 1.54,-105.547c0,-69.526 -0.295,-78.244 -1.54,-105.549c-1.243,-27.248 -5.571,-45.858 -11.899,-62.141c-6.542,-16.834 -15.296,-31.111 -29.527,-45.342c-14.233,-14.232 -28.51,-22.986 -45.344,-29.528c-16.283,-6.329 -34.893,-10.656 -62.141,-11.899c-27.305,-1.246 -36.023,-1.541 -105.547,-1.541Zm0,46.127c68.354,0 76.451,0.26 103.445,1.492c24.959,1.139 38.514,5.309 47.535,8.814c11.949,4.644 20.477,10.192 29.435,19.15c8.959,8.958 14.506,17.487 19.15,29.435c3.506,9.021 7.676,22.576 8.815,47.535c1.231,26.995 1.492,35.092 1.492,103.447c0,68.354 -0.261,76.451 -1.492,103.445c-1.139,24.959 -5.309,38.514 -8.815,47.535c-4.644,11.949 -10.191,20.477 -19.15,29.435c-8.958,8.959 -17.486,14.506 -29.435,19.15c-9.021,3.506 -22.576,7.676 -47.535,8.814c-26.99,1.232 -35.086,1.493 -103.445,1.493c-68.361,0 -76.455,-0.261 -103.447,-1.493c-24.959,-1.138 -38.514,-5.308 -47.535,-8.814c-11.949,-4.644 -20.477,-10.191 -29.436,-19.15c-8.958,-8.958 -14.506,-17.486 -19.149,-29.435c-3.506,-9.021 -7.676,-22.576 -8.815,-47.535c-1.232,-26.994 -1.492,-35.091 -1.492,-103.445c0,-68.355 0.26,-76.452 1.492,-103.447c1.139,-24.959 5.309,-38.514 8.815,-47.535c4.643,-11.948 10.191,-20.477 19.149,-29.435c8.959,-8.958 17.487,-14.506 29.436,-19.15c9.021,-3.505 22.576,-7.675 47.535,-8.814c26.995,-1.232 35.092,-1.492 103.447,-1.492Z"
+                      style="fill: url(#_Linear1); fill-rule: nonzero"
+                    />
+                    <path
+                      d="M256,341.332c-47.129,0 -85.334,-38.205 -85.334,-85.332c0,-47.129 38.205,-85.334 85.334,-85.334c47.127,0 85.332,38.205 85.332,85.334c0,47.127 -38.205,85.332 -85.332,85.332Zm0,-216.792c-72.604,0 -131.46,58.856 -131.46,131.46c0,72.602 58.856,131.458 131.46,131.458c72.602,0 131.458,-58.856 131.458,-131.458c0,-72.604 -58.856,-131.46 -131.458,-131.46Z"
+                      style="fill: url(#_Linear2); fill-rule: nonzero"
+                    />
+                    <path
+                      d="M423.372,119.346c0,16.967 -13.754,30.72 -30.72,30.72c-16.966,0 -30.72,-13.753 -30.72,-30.72c0,-16.966 13.754,-30.719 30.72,-30.719c16.966,0 30.72,13.753 30.72,30.719Z"
+                      style="fill: url(#_Linear3); fill-rule: nonzero"
+                    />
+                  </g>
+                  <defs>
+                    <linearGradient
+                      gradientTransform="matrix(-149.618,494.3,-494.3,-149.618,300.81,-27.1283)"
+                      gradientUnits="userSpaceOnUse"
+                      id="_Linear1"
+                      x1="0"
+                      x2="1"
+                      y1="0"
+                      y2="0"
+                    >
+                      <stop
+                        offset="0"
+                        style="stop-color: #515bd4; stop-opacity: 1"
+                      />
+                      <stop
+                        offset="0.26"
+                        style="stop-color: #9510b8; stop-opacity: 1"
+                      />
+                      <stop
+                        offset="0.66"
+                        style="stop-color: #e51804; stop-opacity: 1"
+                      />
+                      <stop
+                        offset="1"
+                        style="stop-color: #feda77; stop-opacity: 1"
+                      />
+                    </linearGradient>
+                    <linearGradient
+                      gradientTransform="matrix(-149.618,494.3,-494.3,-149.618,300.81,-27.1283)"
+                      gradientUnits="userSpaceOnUse"
+                      id="_Linear2"
+                      x1="0"
+                      x2="1"
+                      y1="0"
+                      y2="0"
+                    >
+                      <stop
+                        offset="0"
+                        style="stop-color: #515bd4; stop-opacity: 1"
+                      />
+                      <stop
+                        offset="0.26"
+                        style="stop-color: #9510b8; stop-opacity: 1"
+                      />
+                      <stop
+                        offset="0.66"
+                        style="stop-color: #e51804; stop-opacity: 1"
+                      />
+                      <stop
+                        offset="1"
+                        style="stop-color: #ffbf00; stop-opacity: 1"
+                      />
+                    </linearGradient>
+                    <linearGradient
+                      gradientTransform="matrix(-149.618,494.3,-494.3,-149.618,300.81,-27.1283)"
+                      gradientUnits="userSpaceOnUse"
+                      id="_Linear3"
+                      x1="0"
+                      x2="1"
+                      y1="0"
+                      y2="0"
+                    >
+                      <stop
+                        offset="0"
+                        style="stop-color: #515bd4; stop-opacity: 1"
+                      />
+                      <stop
+                        offset="0.26"
+                        style="stop-color: #9510b8; stop-opacity: 1"
+                      />
+                      <stop
+                        offset="0.66"
+                        style="stop-color: #e51804; stop-opacity: 1"
+                      />
+                      <stop
+                        offset="1"
+                        style="stop-color: #ffbf00; stop-opacity: 1"
+                      />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="github" data-aos="fade-up">
+            <div class="git-header">
+              <h2>GitHub repo!</h2>
+            </div>
+            <div class="git">
+              <a href="https://github.com/RajRavi05" target="_blank">
+                <?xml version="1.0" encoding="utf-8"?>
+                <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg
+                  version="1.2"
+                  baseProfile="tiny"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 2350 2314.8"
+                  xml:space="preserve"
+                  width="60px"
+                  height="60px"
+                >
+                  <path
+                    d="M1175,0C525.8,0,0,525.8,0,1175c0,552.2,378.9,1010.5,890.1,1139.7c-5.9-14.7-8.8-35.3-8.8-55.8v-199.8H734.4
+    c-79.3,0-152.8-35.2-185.1-99.9c-38.2-70.5-44.1-179.2-141-246.8c-29.4-23.5-5.9-47,26.4-44.1c61.7,17.6,111.6,58.8,158.6,120.4
+    c47,61.7,67.6,76.4,155.7,76.4c41.1,0,105.7-2.9,164.5-11.8c32.3-82.3,88.1-155.7,155.7-190.9c-393.6-47-581.6-240.9-581.6-505.3
+    c0-114.6,49.9-223.3,132.2-317.3c-26.4-91.1-61.7-279.1,11.8-352.5c176.3,0,282,114.6,308.4,143.9c88.1-29.4,185.1-47,284.9-47
+    c102.8,0,196.8,17.6,284.9,47c26.4-29.4,132.2-143.9,308.4-143.9c70.5,70.5,38.2,261.4,8.8,352.5c82.3,91.1,129.3,202.7,129.3,317.3
+    c0,264.4-185.1,458.3-575.7,499.4c108.7,55.8,185.1,214.4,185.1,331.9V2256c0,8.8-2.9,17.6-2.9,26.4
+    C2021,2123.8,2350,1689.1,2350,1175C2350,525.8,1824.2,0,1175,0L1175,0z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ************* Contact   ************ -->
+    <section id="contact" class="contact">
+      <div class="contact-header">
+        <h2>Get in touch!</h2>
+      </div>
+      <div class="contact-details">
+        <div class="mail" data-aos="fade-down">
+          <div class="mailID">
+            <div class="micon">
+              <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+              <svg
+                height="70"
+                style="enable-background: new 0 0 512 512"
+                version="1.1"
+                viewBox="0 0 512 512"
+                width="70"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g id="_x31_47-gmail">
+                  <g>
+                    <g>
+                      <path
+                        d="M442.871,82.934h-14.36h-0.015L256.003,219.52L83.498,82.934h-2.726H69.125     c-23.803,0-43.124,19.37-43.124,43.241v259.446c0,23.867,19.321,43.24,43.124,43.24h13.939h0.434V159.21l172.505,133.038     l172.493-133.07v254.388v15.295h14.375c23.806,0,43.128-19.373,43.128-43.24V126.175     C485.999,102.305,466.68,82.934,442.871,82.934z"
+                        style="fill: #f14336"
+                      />
+                    </g>
+                    <polygon
+                      points="428.496,82.934 83.498,82.934 256.003,219.52   "
+                      style="fill: #f2f2f2"
+                    />
+                    <polygon
+                      points="256.003,292.248 83.498,159.21 83.498,428.861 83.064,428.861 83.064,429.066     428.397,429.066 428.397,413.566 428.496,413.566 428.496,159.178   "
+                      style="fill: #f2f2f2"
+                    />
+                  </g>
+                </g>
+                <g id="Layer_1" />
+              </svg>
+            </div>
+            <h3>rajrv559910@gmail.com</h3>
+            <a
+              href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=rajrv559910@gmail.com"
+              class="btn-4"
+              target="_blank"
+              >Click to send mail</a
+            >
+          </div>
+        </div>
+        <div class="form" data-aos="fade-up">
+          <div class="form-title">
+            <h3>Feedbacks are appreciated!</h3>
+          </div>
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required />
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </p>
+            <p>
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="5"
+              ></textarea>
+            </p>
+            <p class="full">
+              <button type="submit" class="btn-5">Send message</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="legal-text">
+        <p>&copy; All Right Reserved <span id="year"></span></p>
+      </div>
+      <div class="uparrow">
+        <a href="#header">
+          <i class="fas fa-arrow-alt-circle-up"></i>
+          <p>Back to top</p>
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 150,
+        duration: 1200,
+      });
+    </script>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
